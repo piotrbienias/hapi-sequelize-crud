@@ -1,0 +1,24 @@
+{
+  "name": "hapi-sequelize-crud",
+  "version": "1.0.0",
+  "description": "Simple project that creates basic RESTful endpoints basing on Sequelize.js models",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi",
+    "sequelize",
+    "rest",
+    "crud",
+    "model"
+  ],
+  "author": "Piotr Bienias <piotr.bienias@blackballoon.pl> (http://www.blackballoon.pl)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-preset-es2015": "^6.22.0",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0"
+  }
+}

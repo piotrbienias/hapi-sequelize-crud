@@ -39,5 +39,5 @@ jspm_packages
 # Source directory
 src
 
-# WebStorm
+# WebStorm workspace
 .idea
