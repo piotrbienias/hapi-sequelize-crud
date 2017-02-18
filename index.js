@@ -1,7 +1,11 @@
 'use strict';
 
 
-var ModelView = require('./dist/view');
+const ModelView           = require('./dist/view');
+const HSCrud              = require('./dist/crud');
 
 
-module.exports = ModelView;
+module.exports = {
+    ModelView: ModelView,
+    HSCrud: HSCrud
+};

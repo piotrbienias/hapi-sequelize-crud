@@ -9,9 +9,14 @@ module.exports = function(grunt) {
                 presets: ['es2015']
             },
             all: {
-                files: {
-                    'dist/view.js': 'src/view.js'
-                }
+                files: [
+                    {
+                        expand: true,
+                        cwd: 'src/',
+                        src: ['*.js'],
+                        dest: 'dist/'
+                    }
+                ]
             }
         }
     });
