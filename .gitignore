@@ -41,3 +41,6 @@ src
 
 # WebStorm workspace
 .idea
+
+# JSDoc generated
+out
